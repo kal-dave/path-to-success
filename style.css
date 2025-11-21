@@ -1,0 +1,317 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root{
+    --heading-font: 'Kavoon';
+    --teal: #4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57 ;
+    --pink: #D9526F ; 
+    --dark-grey:#1E1E1E ;
+    --white:#ffffff; ;
+}
+
+body{
+    background-color: var(--lavender);
+	text-align: center;
+	font-family: 'Inter';
+}
+
+h1{
+    font-family: var(--heading-font);
+    font-size: 3em;
+}
+
+h2{
+	font-size: 2em;
+	font-family: var(--heading-font);
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+h4{
+	font-size: 1.15em;
+}
+
+#heading{
+	max-width: 450px;
+	background-color: var(--purple);
+	margin: auto;
+	color: var(--white);
+}
+
+#heading div{
+	padding: 30px;
+}
+
+#heading h1{
+	padding-bottom: 15px;
+}
+
+#heading p{
+	font-family: 'Inter';
+	font-style: italic;
+}
+
+#menu{
+	background-color: var(--yellow);
+	max-width: 450px;
+	margin: auto;
+}
+
+#menu div{
+	padding: 15px;
+}
+
+#menu h2{
+	font-family: 'Inter';
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: italic;
+	padding-bottom: 2.5px;
+}
+
+#menu nav{
+	display: flex;
+	flex-direction: column;
+}
+
+#menu a{
+	font-weight: bold;
+	background-color: var(--white);
+	margin: 5px;
+	padding: 15px;
+	text-decoration: none;
+	color: var(--purple);
+}
+
+#menu a:hover{
+	color: var(--yellow);
+}
+
+#services{
+	max-width: 450px;
+	margin: auto;
+	background-color: var(--purple);
+	text-align: left;
+}
+
+#services>div{
+	padding: 15px;
+}
+
+#services h2{
+	color: var(--white);
+	padding-bottom: 10px;
+}
+
+#services h3{
+	color: var(--yellow);
+	font-weight: bold;
+}
+
+#services .service-info{
+	background-color: var(--white);
+	margin: 15px;
+	padding: 20px;
+	border-radius: 10px;
+	line-height: 25px;
+}
+
+#services .service-info h4{
+	color: var(--purple);
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+#choose-us{
+	max-width: 450px;
+	background-color: var(--pink);
+	margin: auto;
+}
+
+#choose-us h2{
+	color: var(--white);
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+#choose-us>div{
+	padding: 12.5px;
+}
+
+#choose-us #why-us{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* TO DO: Flexible Options Fix */
+
+#choose-us h4{
+	width: 140px;
+	font-weight: bold;
+	margin: 5px;
+	margin-bottom: 10px;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+#personalized-approach{
+	background-color: var(--teal);
+}
+
+#proven-results{
+	background-color: var(--lavender);
+}
+
+#supportive-environment{
+	background-color: var(--yellow);
+}
+
+#flexible-options{
+	background-color: var(--white);
+}
+
+#pricings{
+	max-width: 450px;
+	margin: auto;
+	background-color: var(--purple)	;
+	text-align: left;
+}
+
+#pricings>div{
+	padding: 10px;
+}
+
+#pricings h2{
+	color: var(--white);
+	padding-bottom: 10px;
+}
+
+#pricings h3{
+	color: var(--yellow);
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+#pricings .pricing-options{
+	padding-bottom: 7.5px;
+}
+
+table{
+	margin: auto;
+	text-align: center;
+	background-color: var(--yellow);
+}
+
+th{
+	padding: 15px;
+	font-weight: bold;
+}
+
+td{
+	padding: 15px;
+	background-color: var(--white);
+	border: var(--yellow) solid 2px;
+}
+
+#schedule-now{
+	max-width: 450px;
+	margin: auto;
+	background-color: var(--pink);
+	color: var(--white);
+	line-height: 25px;
+}
+
+#schedule-now h2, #schedule-now p{
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+#schedule-now div{
+	padding: 20px;
+}
+
+#schedule-now button{
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	width: 400px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 1em;
+	border-style: none;
+	box-shadow: 5px 5px 5px;
+}
+
+#schedule-now button:hover{
+	background-color: var(--yellow);
+	color: var(--white);
+}
+
+footer{
+	max-width: 450px;
+	background-color: var(--purple);
+	margin: auto;
+	color: var(--white);
+	font-size: 0.85em;
+}
+
+footer div{
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+	justify-content: center;
+}
+
+footer p{
+	padding: 15px;
+}
+
+footer a{
+	color: var(--white);
+}
